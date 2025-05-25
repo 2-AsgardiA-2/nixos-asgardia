@@ -105,6 +105,7 @@
     networkmanager_dmenu
     nixd
     nixfmt-rfc-style
+    pavucontrol
     prismlauncher
     rofi
     sfm
@@ -149,6 +150,8 @@
     enable = true;
     extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
   };
+
+  services.pipewire.alsa.quantum = 32;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
