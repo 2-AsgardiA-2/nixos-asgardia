@@ -107,6 +107,7 @@
     nixfmt-rfc-style
     prismlauncher
     rofi
+    sfm
     swww
     (vscode-with-extensions.override {
       vscode = vscodium;
@@ -132,6 +133,10 @@
       mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
     }))
     wget
+  ];
+
+  fonts.packages = with pkgs; [
+    font-awesome
   ];
 
   hardware.graphics = {
