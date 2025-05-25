@@ -152,8 +152,6 @@
     extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
   };
 
-  services.pipewire.alsa.quantum = 32;
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -191,7 +189,7 @@
     enable = true;
     settings = {
       default_session = {
-        command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --cmd sway";
+        command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --cmd hyprland";
         user = "greeter";
       };
     };
