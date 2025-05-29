@@ -97,8 +97,13 @@
     brave
     discord
     dunst
+    fastfetch
     firefox
     git
+    graphite-cursors
+    graphite-gtk-theme
+    graphite-kde-theme
+    hyprshot
     kitty
     libnotify
     neovim
@@ -106,8 +111,12 @@
     networkmanager_dmenu
     nixd
     nixfmt-rfc-style
+    nwg-look
     pavucontrol
+    pcmanfm
     prismlauncher
+    pywal
+    pywalfox-native
     rofi
     sfm
     swww
