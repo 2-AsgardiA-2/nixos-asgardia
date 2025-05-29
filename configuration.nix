@@ -103,7 +103,9 @@
     graphite-cursors
     graphite-gtk-theme
     graphite-kde-theme
+    grim
     hyprshot
+    jq
     kitty
     libnotify
     neovim
@@ -119,6 +121,7 @@
     pywalfox-native
     rofi
     sfm
+    slurp
     swww
     (vscode-with-extensions.override {
       vscode = vscodium;
@@ -143,6 +146,7 @@
     (waybar.overrideAttrs (oldAttrs: {
       mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
     }))
+    wl-clipboard
     wget
   ];
 
